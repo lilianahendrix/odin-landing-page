@@ -2,6 +2,10 @@
 
 body {
     margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 * {
@@ -57,7 +61,7 @@ a {
 .hero-text {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     margin-bottom: 3px;
 }
 
@@ -98,5 +102,55 @@ button {
     color: #E5E7EB;
     padding: 8px 32px;
     font-weight: bold;
+    font-size: 18px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 0 auto;
+    background-color: #F9FAF8;
+    gap: 60px;
+    min-height: 400px;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.square {
+    width: 160px;
+    height: 160px;
+    border: solid 4px #3882F6;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 175px;
+    text-align: center;
+}
+
+.sec-two-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.caption {
+    color: rgb(106, 110, 121);
     font-size: 18px;
 }
