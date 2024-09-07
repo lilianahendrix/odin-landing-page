@@ -192,8 +192,8 @@ button {
     flex: 1 0 auto;
     background-color: #F9FAF8;
     min-height: 350px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .blue-box {
@@ -229,4 +229,14 @@ button {
 .call-subtext {
     font-size: 18px;
     color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
